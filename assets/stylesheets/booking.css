@@ -1,0 +1,113 @@
+.main-img {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+}
+
+.heading-div {
+    position: absolute;
+    left: 270px;
+    top: 230px;
+    text-align: center;
+}
+
+.heading-text {
+    font-size: 70px;
+}
+.content-div {
+    margin: 15px;
+    padding: 30px;
+    border: 1px solid var(--main);
+    border-radius: 10px;
+}
+.select-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.input-sub-div {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    row-gap: 30px;
+}
+
+select, .date-input,.number-input {
+    height: 30px;
+    margin-left: 30px;
+}
+
+.date-input,.number-input{
+    height: 25px;
+}
+
+.submit-button {
+    margin-top: 30px;
+    width: 310px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:var(--main);
+    border: none;
+    color:var(--light);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.cost-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cost-detail-div {
+    display: grid;
+    grid-template-columns: 200px 20px 50px;
+    row-gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    column-gap: 50px;
+}
+
+.pay-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:var(--main);
+    border: none;
+    color:var(--light);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.booking-msg-div {
+    text-align: center;
+}
+
+.booking-msg {
+    font-size: 50px;
+    color: red;
+}
+
+.error-msg {
+    color: red;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

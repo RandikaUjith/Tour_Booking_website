@@ -1,0 +1,90 @@
+.login-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.login-form-div {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 50px;
+    padding-top: 0px;
+}
+
+label, .login-input {
+    display: block;
+    margin: 20px;
+}
+
+.login-input {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 20px;
+}
+
+.login-button {
+    display: block;
+    margin-top: 30px;
+    width: 310px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:var(--main);
+    border: none;
+    color:var(--light);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.login-button:hover {
+    background-color: rgb(238, 201, 114);
+    color: rgba(30, 19, 25, 0.6);
+    transition: 0.2s;
+}
+
+.signup-button {
+    display: block;
+    margin-top: 30px;
+    width: 310px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:rgb(238, 201, 114);
+    border: none;
+    color:rgba(30, 19, 25, 0.6);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.signup-button:hover {
+    background-color: rgba(30, 19, 25, 0.6);
+    color: rgb(238, 201, 114);
+    transition: 0.2s;
+}
+
+.heading {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.forget-password {
+    color: black;
+}
+
+.or-text {
+    display: block;
+    text-align: center;
+}
+
+p {
+    color: red;
+    font-size: 15px;
+    text-align: center;
+}
